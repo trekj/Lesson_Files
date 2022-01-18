@@ -46,7 +46,7 @@ def calculate_loan_to_value_ratio(loan_amount, home_value):
 # This function is the main execution point of the application. It triggers all the business logic.
 def run():
     # Set the file path of the CVS file with the banks and loans information
-    file_path = Path("./data/daily_rate_sheet.csv")
+    file_path = "./data/daily_rate_sheet.csv"
     # Load the latest Bank data
     bank_data = load_bank_data(file_path)
 
